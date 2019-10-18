@@ -1,0 +1,451 @@
+@font-face {
+    font-family: "Arciform";
+    src: url("../fonts/Arciform.otf")
+}
+
+@font-face {
+    font-family: "Quicksand Book";
+    src: url("../fonts/Quicksand_Book.otf")
+}
+
+@font-face {
+    font-family: "Quicksand Bold";
+    src: url("../fonts/Quicksand_Bold.otf")
+}
+@font-face {
+    font-family: "Quicksand Bold Oblique";
+    src: url("../fonts/Quicksand_Bold_Oblique.otf")
+}
+@font-face {
+    font-family: "Quicksand Book Oblique";
+    src: url("../fonts/Quicksand_Book_Oblique.otf")
+}
+@font-face {
+    font-family: "Quicksand Book";
+    src: url("../fonts/Quicksand_Book.otf")
+}@font-face {
+    font-family: "Quicksand Light";
+    src: url("../fonts/Quicksand_Light.otf")
+}@font-face {
+    font-family: "Quicksand Light";
+    src: url("../fonts/Quicksand_Light_Oblique.otf")
+}
+@font-face {
+    font-family: "Reitam";
+    src: url("../fonts/Reitam_Regular.otf")
+}
+
+
+
+
+.header-logo{
+    width: 100px;
+    height: 80px;
+    margin-top:10px;
+}
+
+.bg-container {
+    position: relative;
+}
+
+.content-container {
+    position:absolute;
+    bottom : 0;
+}
+
+/*
+.bg-container {
+    position: relative;
+    display:inline;
+}
+
+.content-contact {
+    position : absolute;
+    top:0;
+    left:0;
+}
+
+.line-container{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 10%;
+ }
+
+.ig-container{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 7.5%;
+}
+
+.twitter-container{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 7.5%;
+}
+
+.in-container{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 25%;
+}
+
+.mail-container{
+    position: absolute;
+    top: 800%;
+    left: 42%;
+    width: 15%;
+}
+
+.contact-title-container{
+    font-size:80px;
+    font-family: Reitam, serif;
+    position: absolute;
+    color:white;
+    top: -800%;
+    left: 36.5%;
+    width: 15%;
+}
+
+.copyright-container{
+    font-size:30px;
+    font-family: "Quicksand Bold", serif;
+    position: absolute;
+    color:white;
+    top: 1400%;
+    left: 26.5%;
+    width: 50%;
+}
+
+*/
+
+
+.contact-title{
+    font-size:5.2em;
+    font-family: Reitam, serif;
+    color:white;
+}
+
+.copyright-title {
+    font-size: 2.6em;
+    font-family: "Quicksand Bold", serif;
+    color: white;
+    text-align:center;
+}
+
+.bg-img{
+    min-height:760px;
+    object-fit:cover;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.Reitam-title{
+    font-family: Reitam, serif;
+    font-size: 3.5em;
+}
+
+.Quicksand-paragraph{
+    font-family: "Quicksand Book", serif;
+    font-size:1.4em;
+}
+.Quicksand-paragraph-title{
+    font-family: "Quicksand Book", serif;
+    font-size:1.8em;
+}
+.text-section{
+    margin-left:7%;
+    margin-right:7%;
+}
+.Quicksand-lokasitanggal{
+    font-family: "Quicksand Bold", serif;
+    font-size:2.8em;
+    text-shadow: 3px 3px black;
+    color : #faa63d;
+    margin: 0;
+}
+.Quicksand-lokasitanggal2{
+    font-family: "Quicksand Bold", serif;
+    font-size:5.4em;
+    text-shadow: 3px 3px black;
+    color : #faa63d;
+    margin: 0;
+}
+.Quicksand-lokasitanggal-content{
+    font-family: "Quicksand Book", serif;
+    font-size:2.2em;
+    margin: 0;
+    margin-top:12px;
+}
+
+.purple{
+    color:#e69cac;
+}
+
+.blue{
+    color: #69b9d7;
+}
+
+.teal{
+    color: #7dba9e;
+}
+
+.Quicksand-title{
+    font-family: "Quicksand Bold", serif;
+    font-size:2.3em;
+}
+.Quicksand-title3{
+    font-family: "Quicksand Bold", serif;
+    font-size:1.8em;
+    margin-bottom:0;
+}
+
+.Quicksand-color-title{
+     font-family: "Quicksand Bold", serif;
+     font-size:3.5em;
+     background-image: linear-gradient(to right, #fdb73a, #e4e79b);
+     color:white;
+     border-radius: 25px;
+     display:table;
+ }
+
+.Quicksand-color-title6{
+    font-family: "Quicksand Bold", serif;
+    font-size:3.5em;
+    background-image: linear-gradient(to right, #6b9598, #85cba1);
+    color:white;
+    border-radius: 25px;
+    display:table;
+}
+
+
+.button{
+    font-family: "Quicksand Bold", serif;
+    font-size:1.5em;
+    background-image: linear-gradient(to right, #fdb73a, #dd9f36);
+    color:white;
+    border-radius: 50px;
+    display:table;
+    margin : 4px 6px;
+    width:220px;
+    height:70px;
+    cursor: pointer;
+}
+
+.button-2{
+    font-family: "Quicksand Bold", serif;
+    font-size:1.5em;
+    background-image: linear-gradient(to right, #fdb73a, #fd8c28);
+    color:white;
+    border-radius: 50px;
+    display:table;
+    margin : 4px 6px;
+    width:240px;
+    height:65px;
+    cursor: pointer;
+}
+
+.button-3{
+    font-family: "Quicksand Bold", serif;
+    font-size:1.5em;
+    background-image: linear-gradient(to right, #6b9598, #85cba1);
+    color:white;
+    border-radius: 50px;
+    display:table;
+    margin : 4px 6px;
+    width:240px;
+    height:65px;
+    cursor: pointer;
+}
+
+.space{
+    margin-top:60px;
+}
+
+.small-space{
+    margin-top:30px;
+}
+
+.Quicksand-color-title-2{
+    font-family: "Quicksand Bold", serif;
+    font-size:3.5em;
+    background-image: linear-gradient(to right, #fdb73a, #e27a26);
+    color:white;
+    border-radius: 25px;
+    display:table;
+}
+
+.Arciform-title{
+    font-style:italic;
+    font-size:4em;
+    font-family: "Arciform",serif;
+    text-align:center;
+}
+
+.form-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0 50px;
+}
+
+
+:target{
+    padding-top:70px; /* = to height of navbar */
+    margin-top:-70px;
+}
+
+
+@media (min-width: 100px) {
+    .img-slideshow{
+        width:800px;
+        height:160px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+@media (min-width: 576px) {
+    .img-slideshow{
+        width:800px;
+        height:360px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 360px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-slideshow{
+        width:800px;
+        height:480px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+.buletan-expo{
+    height:400px;
+    width:400px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.buletan-expo2{
+    height:220px;
+    width:220px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.buletan-expo3{
+    height:220px;
+    width:220px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin: 0 auto;!important
+}
+.expo-par1{
+    text-align:justify;
+    text-align-last:right;
+    text-indent:3em;
+}
+.expo-title2{
+    text-align:right;
+}
+.expo-par2{
+    text-align:justify;
+    text-indent:3em;
+}
+.expo-par3{
+    text-align:justify;
+    text-align-last:right;
+    text-indent:3em;
+}
+.buletan-expo-2{
+    height:300px;
+    width:300px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+a#event-nav.navlink.dropdown-toggle.active.dd-active{
+    margin-right:20px;
+}
+
+.form-title{
+    font-size:4em;
+    text-align:center;
+    text-shadow:gray;
+}
+
+
+.mtop{
+    margin-top:80px;
+}
+.mbot{
+    margin-bottom:50px;
+}
+
+.flex-item{
+    display:flex;
+}
+
+@media (min-width: 100px) and (max-width: 560px){
+    .mbot{
+        margin-bottom:10px;
+    }
+    .mtop{
+        margin-top:50px;
+    }
+    .header-logo{
+    margin-top:0px;
+        height:50px;
+        width:65px;
+    }
+    .contact-img-mail{
+        width:90px;
+    }
+    .contact-img-in{
+        width:140px;
+    }
+    .bg-img{
+        min-height:360px;
+    }
+    .contact-title{
+        font-size:2.6em;
+    }
+    .copyright-title{
+        font-size:1.3em;
+    }
+}

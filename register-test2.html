@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Register Paper Competition</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+<header>
+    <nav class=" fixed-top navbar navbar-expand-md navbar-light bg-white">
+        <a class="navbar-brand header-logo" href="#" style="margin-left:5%;">
+            <img class="img-fluid" src="img/logo-icee.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" style="margin-right:5%">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="home-nav">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" id="about-nav">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="expo.html">Expo & Exhibition</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="seminar.html">Seminar Nasional</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="konferensi.html">Konferensi Mahasiswa</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kompetisi.html">Kompetisi</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery" id="gallery-nav">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" id="contact-nav">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<div class="space"></div>
+<h1 class="form-title"> Paper Competition Registration </h1>
+<div class="small-space"></div>
+<p style="margin: 0 10%;">Upload foto ktm, pas foto, beserta keterangan aktif mahasiswa tiap peserta, dan juga bukti pembayaran dengan format file yang sudah dikompresi berupa zip/rar</p>
+<div class="small-space"></div>
+
+<form id="form_paper">
+
+    <label>Kartu Tanda Mahasiswa Peserta 1</label>
+    <div id="file1-container"></div>
+    <input name="file1" id="file1" type="file">
+
+    <label>Kartu Tanda Mahasiswa Peserta 2</label>
+    <div id="file2-container"></div>
+    <input name="file2" id="file2" type="file">
+
+    <label>Kartu Tanda Mahasiswa Peserta 3</label>
+    <div id="file3-container"></div>
+    <input name="file3" id="file3" type="file">
+
+    <label>Keterangan Aktif Mahasiswa Peserta 1</label>
+    <div id="file4-container"></div>
+    <input name="file4" id="file4" type="file">
+
+    <label>Keterangan Aktif Mahasiswa Peserta 2</label>
+    <div id="file5-container"></div>
+    <input name="file5" id="file5" type="file">
+
+    <label>Keterangan Aktif Mahasiswa Peserta 3</label>
+    <div id="file6-container"></div>
+    <input name="file6" id="file6" type="file">
+
+    <label>Pas Foto Peserta 1</label>
+    <div id="file7-container"></div>
+    <input name="file7" id="file7" type="file">
+
+    <label>Pas Foto Peserta 2</label>
+    <div id="file8-container"></div>
+    <input name="file8" id="file8" type="file">
+
+    <label>Pas Foto Peserta 3</label>
+    <div id="file9-container"></div>
+    <input name="file9" id="file9" type="file">
+
+    <label>Bukti Pembayaran</label>
+    <div id="file10-container"></div>
+    <input name="file10" id="file10" type="file">
+
+    <input id="submit" type="submit">
+</form>
+<div id="wait-notif"></div>
+
+<section id="contact" class="contact scroll-animation">
+    <div class="container-fluid bg-container">
+        <img class="img-fluid bg-img" src="img/contact-black-bg.png">
+
+        <div class=" container-fluid content-container">
+            <div class="row justify-content-center contact-title" style="margin-bottom:20px;">
+                <p> CONTACT </p>
+            </div>
+            <div class="row justify-content-center" style="margin-bottom:50px;">
+                <div class="col-2" style="margin-right:50px;">
+                    <img class="img-fluid" src="img/line.png">
+                </div>
+                <div class="col-2" style="margin-right:50px;">
+                    <img  class="img-fluid" src="img/ig.png">
+                </div>
+                <div class="col-2">
+                    <img  class="img-fluid" src="img/twitter.png">
+                </div>
+                <div class="col-4">
+                    <img  class="img-fluid" src="img/Untitled-3.png">
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-bottom:50px;">
+                <img  class="img-fluid" src="img/mail.png">
+            </div>
+            <div class="row justify-content-center copyright-title">
+                <p> Copyright ITB Civil Engineering Expo 2020 </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+<script src="script/serialize.js"></script>
+<script>
+    $('#submit').on('click', function(e) {
+        $('#form_paper').ajaxForm({
+            url: 'https://script.google.com/macros/s/AKfycbz182vs0GvX4841FMDXma2yCsSPF87MmeAnpLySWv-JG8ZLKwDq/exec',
+            type: 'post',
+            })
+
+        setTimeout(function() { window.alert('Registrasi Berhasil'),
+        window.location.href = "index.html"; }, 10000);
+        document.getElementById("wait-notif").innerHTML  = 'teste';
+    })
+
+</script>
+<script>
+
+    function handleOnChange() {
+        const inputName = this.getAttribute('name');
+        const file = this.files[0];
+        const fr = new FileReader();
+        fr.fileName = file.name;
+        fr.onload = function(e) {
+            html = `<input type="hidden" name="${inputName}data" value="${e.target.result.replace(/^.*,/, '')}" >`;
+            html += `<input type="hidden" name="${inputName}mimetype" value="${e.target.result.match(/^.*(?=;)/)[0]}" >`;
+            html += `<input type="hidden" name="${inputName}filename" value="${e.target.fileName}" >`;
+            $(`#${inputName}-container`).empty().append(html);
+        }
+        fr.readAsDataURL(file);
+    }
+
+    $('#file1').on("change", handleOnChange);
+    $('#file2').on("change", handleOnChange);
+    $('#file3').on("change", handleOnChange);
+    $('#file4').on("change", handleOnChange);
+    $('#file5').on("change", handleOnChange);
+    $('#file6').on("change", handleOnChange);
+    $('#file7').on("change", handleOnChange);
+    $('#file8').on("change", handleOnChange);
+    $('#file9').on("change", handleOnChange);
+    $('#file10').on("change", handleOnChange);
+</script>
+</body>
+</html>
